@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00F30E2C49B4D01868209D46 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		41AEB9A70C3601784758DFBC /* LPPermanentThread.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LPPermanentThread.podspec; path = ../LPPermanentThread.podspec; sourceTree = "<group>"; };
+		00F30E2C49B4D01868209D46 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		41AEB9A70C3601784758DFBC /* LPPermanentThread.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LPPermanentThread.podspec; path = ../LPPermanentThread.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* LPPermanentThread_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPPermanentThread_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,7 +64,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9152AEB285CE07C273391CBC /* Pods_LPPermanentThread_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LPPermanentThread_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD721DF390067AE96955F6B9 /* Pods-LPPermanentThread_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LPPermanentThread_Example.debug.xcconfig"; path = "Target Support Files/Pods-LPPermanentThread_Example/Pods-LPPermanentThread_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CCCBDDADF39151E1DE33123E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CCCBDDADF39151E1DE33123E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D30EDBBF9C3CCF3B915F0ECE /* Pods_LPPermanentThread_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LPPermanentThread_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9757BD03A3D6BCAAC3919F1 /* Pods-LPPermanentThread_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LPPermanentThread_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LPPermanentThread_Tests/Pods-LPPermanentThread_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				D9757BD03A3D6BCAAC3919F1 /* Pods-LPPermanentThread_Tests.debug.xcconfig */,
 				633E644F63E356B1F69F77D9 /* Pods-LPPermanentThread_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

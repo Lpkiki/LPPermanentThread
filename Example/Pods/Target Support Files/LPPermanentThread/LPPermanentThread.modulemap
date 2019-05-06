@@ -1,0 +1,6 @@
+framework module LPPermanentThread {
+  umbrella header "LPPermanentThread-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_LPPermanentThread_Tests {
+  umbrella header "Pods-LPPermanentThread_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

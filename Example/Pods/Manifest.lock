@@ -1,0 +1,16 @@
+PODS:
+  - LPPermanentThread (0.1.0)
+
+DEPENDENCIES:
+  - LPPermanentThread (from `../`)
+
+EXTERNAL SOURCES:
+  LPPermanentThread:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LPPermanentThread: b575e074fa56c911d6cb913fd66675467ac2c8ae
+
+PODFILE CHECKSUM: 305638ac552336d9728bd778e077200528e6bc1c
+
+COCOAPODS: 1.7.0.beta.2
